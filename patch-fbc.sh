@@ -134,6 +134,7 @@ declare -A patch_list=(
     ["470.86"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["470.94"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["470.103.01"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["470.129.06"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.29.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.44"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.46"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
@@ -142,7 +143,11 @@ declare -A patch_list=(
     ["510.54"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["510.60.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["510.68.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["510.73.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["510.73.08"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["515.43.04"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["515.48.07"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["515.57"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
 )
 
 declare -A object_list=(
@@ -225,6 +230,7 @@ declare -A object_list=(
     ["470.86"]='libnvidia-fbc.so'
     ["470.94"]='libnvidia-fbc.so'
     ["470.103.01"]='libnvidia-fbc.so'
+    ["470.129.06"]='libnvidia-fbc.so'
     ["495.29.05"]='libnvidia-fbc.so'
     ["495.44"]='libnvidia-fbc.so'
     ["495.46"]='libnvidia-fbc.so'
@@ -233,7 +239,11 @@ declare -A object_list=(
     ["510.54"]='libnvidia-fbc.so'
     ["510.60.02"]='libnvidia-fbc.so'
     ["510.68.02"]='libnvidia-fbc.so'
+    ["510.73.05"]='libnvidia-fbc.so'
+    ["510.73.08"]='libnvidia-fbc.so'
     ["515.43.04"]='libnvidia-fbc.so'
+    ["515.48.07"]='libnvidia-fbc.so'
+    ["515.57"]='libnvidia-fbc.so'
 )
 
 check_version_supported () {
